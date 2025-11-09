@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://mongo:27017/dockerlearn', {
+mongoose.connect('process.env.mongodb+srv://Aju:Leavemealone_2004@cluster0.5x7orhc.mongodb.net/?appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
